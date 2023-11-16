@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bare Templete</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      box-sizing: border-box;
+    }
+
+    .navbar ul {
+
+      list-style-type: none;
+      overflow: hidden;
+      background-color: rgb(33, 37, 41);
+    }
+
+    .navbar li {
+      float: right;
+    }
+
+    .navbar li a {
+      display: inline-block;
+      color: rgb(233, 225, 225);
+      text-align: center;
+      padding: 16px 0px;
+      text-decoration: none;
+      font-size: 20px;
+      margin-right: 20px;
+
+    }
+
+    .navbar li a:hover {
+      opacity: 0.5;
+    }
+
+    .navbar .for_float {
+      float: left;
+    }
+
+    .for_float {
+      padding-left: 70px;
+    }
+
+    li.dropdown {
+      display: block;
+    }
+
+    div .dropdown-content {
+      display: none;
+      background-color: white;
+      color: #212567;
+      position: absolute;
+      margin-right: 20px;
+      min-width: 160px;
+      margin-top: 1px;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+
+    div .dropdown-content a {
+      color: #212567;
+      padding: 12px 12px;
+      text-decoration: none;
+      display: inline-block;
+      text-align: left;
+      border-width: 75px;
+      width: 100%;
+
+
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      opacity: 0.6;
+    }
+
+    h1 {
+      text-align: center;
+      padding-top: 50px;
+      font-size: 40px;
+      font-family: sans-serif;
+    }
+
+    p {
+      text-align: center;
+      font-family: sans-serif;
+      padding: 5px;
+    }
+
+    .align {
+      font-size: 20px;
+    }
+
+
+    @media (max-width: 600px) {
+      .navbar ul li {
+        text-align: center;
+        float: none;
+      }
+
+      .navbar .for_float {
+        text-align: center;
+        float: none;
+        margin: 0;
+        padding: 0;
+
+      }
+
+      ul li:nth-child(2) a {
+        padding-right: 0 !important;
+      }
+
+      
+
+      .main h1 {
+        font-size: 30px;
+
+      }
+
+      .main p {
+        font-size: 15px;
+      }
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li class="for_float"><a href="#start_bootstrap">Start Bootstrap</a></li>
+
+      <li><a href="#home" style="padding-right: 70px;">Home</a></li>
+      <li><a href="#link">Link</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+        <div class="dropdown-content">
+          <a href="#">Action</a>
+          <a href="#">Another action</a>
+          <a href="#">Something else here</a>
+        </div>
+      </li>
+
+
+
+    </ul>
+  </div>
+  <div class="main">
+    <h1>
+      A Bootstrap 5 Starter Template
+    </h1>
+    <p class="align">A complete project boilerplate built with Bootstrap</p>
+    <p>Bootstrap v5.2.3</p>
+
+    <br><br>
+    <p>Bare<br>
+      A Bootstrap HTML starter template</p>
+
+  </div>
+</body>
+
+</html>

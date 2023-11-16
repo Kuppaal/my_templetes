@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #212529;
+    width: 100%;
+    
+}
+
+.navbar a {
+    float: left;
+    color: #9B9D8D;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+.navbar .first_menu {
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(249, 242, 242);
+}
+
+.right_nav{
+    float: right;
+}
+
+
+.bg_img {
+    background-image: url("black_sea.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    box-sizing: border-box;
+}
+
+.gray_img {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    padding-bottom: 1.5cm !important;
+    padding-top: 2cm;
+}
+.gray_img img{
+    border-radius: 50%;
+}
+.text_center {
+    text-align: center;
+    color: aliceblue;
+    line-height: 1.5;
+
+}
+
+.text_center p {
+    opacity: 0.5;
+}
+
+
+.f_passage {
+    padding: 100px 100px;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+
+.moon {
+    background-image: url("black_sky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    box-sizing: border-box;
+
+}
+
+.s_passage{
+    padding: 100px 100px;
+    box-sizing: border-box;
+    text-align: left; 
+}
+
+.footer p {
+
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    background-color: #212529;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    overflow-x: hidden;
+  
+  }
+
+
+  @media(max-width:800px){
+ .navbar a{
+    float: none;
+    display: flex;
+   flex-direction: column;
+   text-align: left;
+    
+  }
+
+  .right_nav{
+    float: none;
+  }
+  .f_passage{
+     padding: 50px 50px;
+  }
+  .s_passage{
+    padding: 50px 50px;
+  }
+  }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #690707;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(97, 220, 86);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  color: #690707;
+  text-align: center;
+
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-style: italic;
+  color: #690707;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 3px;
+  margin-right: 3px
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="https://www.w3schools.com/" target="_blank">HOME</a></li>
+  <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></li>
+  <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">IMPORTANT</a>
+    <div class="dropdown-content">
+      <a href="https://www.w3schools.com/howto/default.asp" target="_blank">HOW TO</a>
+      <a href="https://www.w3schools.com/css/css_templates.asp" target="_blank">TEMPLATES</a>
+      <a href="https://www.w3schools.com/css/css_quiz.asp" target="_blank">QUIZ</a>
+    </div>
+  </li>
+</ul>
+
+
+<h1>Introduction Of HTML and CSS </h1>
+<p>HTML and CSS are two languages that work together to create everything that you see when you look at something on the internet. 
+  HTML is the raw data that a webpage is built out of. All the text, links, cards, lists, and buttons are created in HTML. 
+  CSS is what adds style to those plain elements. HTML puts information on a webpage, 
+  and CSS positions that information, gives it color, changes the font, and makes it look great!</p>
+</body>
+</html>

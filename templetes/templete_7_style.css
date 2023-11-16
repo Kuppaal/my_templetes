@@ -1,0 +1,170 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #212529;
+    
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    color: #e8ecd2;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.right_nav {
+    float: right;
+}
+
+.navbar a:hover {
+    opacity: 0.5;
+}
+
+.image {
+    background-image: url(m_color.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    box-sizing: border-box;
+   position: relative;
+}
+
+ .center_align{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+.image_text h1 {
+    
+    text-align: center;
+    font-size: 64px;
+    color: white;
+}
+
+.image_text h2 {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+   
+}
+
+
+
+.btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.c_btn {
+    padding: 24px 48px;
+    text-decoration: none;
+    background-color: rgb(221, 19, 140);
+    width: 300px;
+    margin: auto;
+    border-radius: 800px;
+    color: white;
+}
+
+.f_row{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center !important;
+    box-sizing: border-box;
+}
+.f_row .text_f{
+    margin: 50px 50px;
+    width: 40%;
+}
+.f_row .img_f{
+    width: 30%;
+    border-radius: 50%;
+   
+}
+.s_row{
+    margin-top: 50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center !important;
+    box-sizing: border-box;
+}
+.s_row .text_s{
+    margin: 50px 50px;
+    width: 40%;
+}
+.s_row .img_s{
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+.t_row{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center !important;
+    box-sizing: border-box;
+}
+
+.t_row .text_t{
+    margin: 50px 50px;
+    width: 40%;
+}
+.t_row .img_t{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.footer p {
+
+    margin-top: 200px;
+    text-align: center;
+    padding: 50px;
+    background-color: #212529;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    overflow-x: hidden;
+  
+  }
+
+  @media (max-width:600px){
+       .navbar a{
+        float: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       }
+
+       .right_nav{
+        float: none;
+       }
+
+       .image_text h1{
+        font-size: 50px;
+       }
+
+       .image_text h2{
+        font-size: 20px;
+       }
+
+       .c_btn{
+        padding: 12px 24px;
+        width: 200px;
+        border-radius: 400px;
+    }
+
+  }

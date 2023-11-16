@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #212529;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    color: #e8ecd2;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.right_menu {
+    float: right;
+}
+
+.last_menu {
+    margin-right: 80px;
+}
+
+.navbar a:hover {
+    opacity: 0.5;
+}
+
+
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #212529;
+    color: white;
+    position: absolute;
+    top: 50px;
+    margin-right: 20px;
+    width: 160px;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: white;
+    background-color: #212529;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-width: 75px;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.text_center{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_center h1{
+    font-weight: bolder;
+    font-size: 2em;
+    line-height: 1.5;
+}
+.text_center p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.faq_text_1 >h1{
+    font-weight: bolder;
+    font-size: 2em;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+.faq_text_2>h1{
+    font-weight: bolder;
+    font-size: 2em;
+    line-height: 1.5;
+    padding: 50px 0;
+}
+.accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .active,
+.accordion:hover {
+  background-color: #f1f7f5;
+}
+.pannel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #f1f7f5;
+  display: none;
+}
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.faq.active {
+  border: none;
+}
+
+.section_1{
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+    display: flex;
+    flex-direction: column;
+}
+.footer p {
+
+    margin-top: 200px;
+    text-align: center;
+    padding: 50px;
+    background-color: #212529;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    overflow-x: hidden;
+  
+  }
+  .section_2{
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   line-height: 1.5;
+    box-sizing: border-box;
+  }
+.bold{
+    font-weight: bold;
+}
+.background{
+    background-color: #F8F9FA;
+   width: 50%;
+text-align: center;
+padding: 3rem;
+}
